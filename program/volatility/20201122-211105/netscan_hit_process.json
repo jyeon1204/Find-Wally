@@ -1,9 +1,0 @@
-{
-	"3520": {
-		"protocol": "TCPv4",
-		"name": "vbc.exe",
-		"local address": "192.168.23.164",
-		"foreign address": "192.168.23.2",
-		"state": "CLOSED"
-	}
-}

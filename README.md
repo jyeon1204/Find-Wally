@@ -1,4 +1,4 @@
-<h3 align="center"> Find Wally </h3>
+<h2 align="center"> Find Wally </h2>
 
 <p align="center"> 2020.09-2020.11 </p>
 <p align="center"> 케이쉴드 프로젝트 </p>

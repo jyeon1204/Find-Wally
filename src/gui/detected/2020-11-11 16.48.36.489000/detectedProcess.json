@@ -1,0 +1,42 @@
+[
+  {
+    "RuleId": "10115",
+    "TreeIndex": 0,
+    "ActionIndex": 6992
+  },
+  {
+    "RuleId": "10115",
+    "TreeIndex": 0,
+    "ActionIndex": 11372
+  },
+  {
+    "RuleId": "10115",
+    "TreeIndex": 0,
+    "ActionIndex": 3752
+  },
+  {
+    "RuleId": "10115",
+    "TreeIndex": 0,
+    "ActionIndex": 11980
+  },
+  {
+    "RuleId": "10039",
+    "TreeIndex": 1,
+    "ActionIndex": 8668
+  },
+  {
+    "RuleId": "10047",
+    "TreeIndex": 2,
+    "ActionIndex": 10732
+  },
+  {
+    "RuleId": "10048",
+    "TreeIndex": 2,
+    "ActionIndex": 10676
+  },
+  {
+    "RuleId": "10048",
+    "TreeIndex": 2,
+    "ActionIndex": 8948
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "0": [
+      {
+        "Process Name": "UNKNOWN",
+        "Image": "UNKNOWN",
+        "Pid": 42528,
+        "Time": "2020-11-22 21:53:54.478000",
+        "action": [],
+        "1": [
+          {
+            "Process Name": "wmic.exe",
+            "Image": "C:\\Windows\\System32\\wbem\\WMIC.exe",
+            "Pid": 39384,
+            "Time": "2020-11-22 21:53:54.478000",
+            "action": []
+          },
+          {
+            "Process Name": "Cmd.Exe",
+            "Image": "C:\\Windows\\System32\\cmd.exe",
+            "Pid": 21992,
+            "Time": "2020-11-22 21:53:54.548000",
+            "action": [],
+            "2": [
+              {
+                "Process Name": "wevtutil.exe",
+                "Image": "C:\\Windows\\System32\\wevtutil.exe",
+                "Pid": 42968,
+                "Time": "2020-11-22 21:53:54.558000",
+                "action": []
+              }
+            ]
+          },
+          {
+            "Process Name": "python.exe",
+            "Image": "D:\\Anaconda3\\python.exe",
+            "Pid": 36884,
+            "Time": "2020-11-22 21:54:46.697000",
+            "action": [],
+            "2": [
+              {
+                "Process Name": "wmic.exe",
+                "Image": "C:\\Windows\\System32\\wbem\\WMIC.exe",
+                "Pid": 36900,
+                "Time": "2020-11-22 21:54:46.842000",
+                "action": []
+              },
+              {
+                "Process Name": "Cmd.Exe",
+                "Image": "C:\\Windows\\System32\\cmd.exe",
+                "Pid": 43384,
+                "Time": "2020-11-22 21:54:46.919000",
+                "action": [],
+                "3": [
+                  {
+                    "Process Name": "wevtutil.exe",
+                    "Image": "C:\\Windows\\System32\\wevtutil.exe",
+                    "Pid": 38168,
+                    "Time": "2020-11-22 21:54:47.224000",
+                    "action": []
+                  }
+                ]
+              },
+              {
+                "Process Name": "Cmd.Exe",
+                "Image": "C:\\Windows\\System32\\cmd.exe",
+                "Pid": 37060,
+                "Time": "2020-11-22 21:54:47.251000",
+                "action": []
+              },
+              {
+                "Process Name": "Cmd.Exe",
+                "Image": "C:\\Windows\\System32\\cmd.exe",
+                "Pid": 8184,
+                "Time": "2020-11-22 21:54:47.385000",
+                "action": []
+              },
+              {
+                "Process Name": "Cmd.Exe",
+                "Image": "C:\\Windows\\System32\\cmd.exe",
+                "Pid": 43052,
+                "Time": "2020-11-22 21:54:47.439000",
+                "action": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,2330 @@
+[
+	{
+		"RuleId": "10001",
+		"RuleName": "sethc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "sethc.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10002",
+		"RuleName": "osk.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "osk.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10003",
+		"RuleName": "utilman.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "utilman.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10004",
+		"RuleName": "Magnify.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "Magnify.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10005",
+		"RuleName": "Narrator.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "Narrator.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10006",
+		"RuleName": "DisplaySwitch.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "DisplaySwitch.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10007",
+		"RuleName": "AtBroker.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "AtBroker.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10008",
+		"RuleName": "sdbinst.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "sdbinst.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10009",
+		"RuleName": "bitsadmin.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "bitsadmin.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10010",
+		"RuleName": "eventvmr.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "eventvmr.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10011",
+		"RuleName": "fodhelper.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "fodhelper.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10012",
+		"RuleName": "Escape character",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "^",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10013",
+		"RuleName": "Root DIR",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "../../",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10014",
+		"RuleName": "User excute bin",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentCommandLine",
+			"Expr": "C:\\Windows\\explorer.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10015",
+		"RuleName": "fltMC.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "fltMC.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10016",
+		"RuleName": "misc::mflt",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "+[misc::mflt]*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10017",
+		"RuleName": "whoami.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "whoami.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10018",
+		"RuleName": "ipconfig.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "ipconfig.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10019",
+		"RuleName": "tasklist.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "tasklist.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10020",
+		"RuleName": "taskmgr.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "taskmgr.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10021",
+		"RuleName": "systeminfo.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*systeminfo.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10022",
+		"RuleName": "sysinfo.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*sysinfo.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10023",
+		"RuleName": "netstat.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "netstat.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10024",
+		"RuleName": "qprocess.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "qprocess.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10025",
+		"RuleName": "nslookup.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "nslookup.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10026",
+		"RuleName": "net.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*net.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10027",
+		"RuleName": "net1.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*net1.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10028",
+		"RuleName": "quser.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "quser.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10029",
+		"RuleName": "query.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "query.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10030",
+		"RuleName": "tracert.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "tracert.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10031",
+		"RuleName": "tree.com",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "tree.com",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10032",
+		"RuleName": "route.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "route.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10033",
+		"RuleName": "runas.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "runas.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10034",
+		"RuleName": "reg.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "reg.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10035",
+		"RuleName": "regedit.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "regedit.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10036",
+		"RuleName": "taskkill.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "taskkill.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10037",
+		"RuleName": "netsh.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "netsh.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10038",
+		"RuleName": "klist.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "klist.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10039",
+		"RuleName": "wevtutil.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "wevtutil.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10040",
+		"RuleName": "taskeng.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "taskeng.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10041",
+		"RuleName": "regsvr32.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "regsvr32.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10042",
+		"RuleName": "wmiprvse.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "wmiprvse.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10043",
+		"RuleName": "wmiprvse.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "wmiprvse.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10044",
+		"RuleName": "hh.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "hh.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10045",
+		"RuleName": "cmd.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "cmd.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10046",
+		"RuleName": "cmd.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "cmd.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10047",
+		"RuleName": "powershell.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "powershell.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10048",
+		"RuleName": "powershell.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "powershell.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10049",
+		"RuleName": "powershell_ise.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "powershell_ise.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10050",
+		"RuleName": "bash.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "bash.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10051",
+		"RuleName": "odbcconf.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "odbcconf.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10052",
+		"RuleName": "odbcconf.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "odbcconf.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10053",
+		"RuleName": "pcalua.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "pcalua.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10054",
+		"RuleName": "pcalua.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "pcalua.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10055",
+		"RuleName": "cscript.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "cscript.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10056",
+		"RuleName": "cscript.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "cscript.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10057",
+		"RuleName": "wscript.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "wscript.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10058",
+		"RuleName": "wscript.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "wscript.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10059",
+		"RuleName": "mshta.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "mshta.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10060",
+		"RuleName": "mshta.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "mshta.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10061",
+		"RuleName": "control.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "control.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10062",
+		"RuleName": "attrib.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "attrib.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10063",
+		"RuleName": "cmdkey.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "cmdkey.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10064",
+		"RuleName": "nbtstat.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "nbtstat.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10065",
+		"RuleName": "nbtinfo.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "nbtinfo.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10066",
+		"RuleName": "qwinsta.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "qwinsta.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10067",
+		"RuleName": "rwinsta.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "rwinsta.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10068",
+		"RuleName": "schtasks.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "schtasks.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10069",
+		"RuleName": "sctasks.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "sctasks.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10070",
+		"RuleName": "replace.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "replace.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10071",
+		"RuleName": "jjs.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "jjs.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10072",
+		"RuleName": "appcmd.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "appcmd.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10073",
+		"RuleName": "sc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "sc.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10074",
+		"RuleName": "certutil.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "certutil.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10075",
+		"RuleName": "desktopimgdownldr.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "desktopimgdownldr.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10076",
+		"RuleName": "findstr.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "findstr.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10077",
+		"RuleName": "where.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "where.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10078",
+		"RuleName": "forfiles.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "forfiles.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10079",
+		"RuleName": "icacls.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "icacls.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10080",
+		"RuleName": "cacls.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "cacls.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10081",
+		"RuleName": "xcopy.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "xcopy.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10082",
+		"RuleName": "robocopy.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "robocopy.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10083",
+		"RuleName": "takeown.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "takeown.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10084",
+		"RuleName": "makecab.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "makecab.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10085",
+		"RuleName": "wusa.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "wusa.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10086",
+		"RuleName": "vassadmin.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "vassadmin.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10087",
+		"RuleName": "nltest.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*nltest.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10088",
+		"RuleName": "nltestk.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*nltestk.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10089",
+		"RuleName": "winrs.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "winrs.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10090",
+		"RuleName": "computerdefaults.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "computerdefaults.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10091",
+		"RuleName": "dism.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "dism.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10092",
+		"RuleName": "fodhelper.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "fodhelper.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10093",
+		"RuleName": "djoin.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "djoin.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10094",
+		"RuleName": "PktMon.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PktMon.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10095",
+		"RuleName": "mofcomp.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "mofcomp.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10096",
+		"RuleName": "C:\\WINDOWS\\system32\\wbem\\scrcons.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\WINDOWS\\system32\\wbem\\scrcons.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10097",
+		"RuleName": "ScrCons",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "ScrCons",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10098",
+		"RuleName": "nltestrk.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "nltestrk.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10099",
+		"RuleName": "ATBroker.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "ATBroker.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10100",
+		"RuleName": "csc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "csc.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10101",
+		"RuleName": "dfsvc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "dfsvc.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10102",
+		"RuleName": "dnscmd.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "dnscmd.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10103",
+		"RuleName": "esentutl.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "esentutl.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10104",
+		"RuleName": "expand",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "expand",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10105",
+		"RuleName": "extexport.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "extexport.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10106",
+		"RuleName": "extrace32.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "extrace32.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10107",
+		"RuleName": "IEExec.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "IEExec.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10108",
+		"RuleName": "ilasm.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "ilasm.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10109",
+		"RuleName": "InfDefaultInstall.EXE",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "InfDefaultInstall.EXE",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10110",
+		"RuleName": "jsc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "jsc.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10111",
+		"RuleName": "vbc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "vbc.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10112",
+		"RuleName": "Microsoft.Workflow.Compiler.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "Microsoft.Workflow.Compiler.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10113",
+		"RuleName": "msconfig.EXE",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "msconfig.EXE",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10114",
+		"RuleName": "msdt.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "msdt.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10115",
+		"RuleName": "msiexec.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "msiexec.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10116",
+		"RuleName": "PresentationHost.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PresentationHost.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10117",
+		"RuleName": "Print.Exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "Print.Exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10118",
+		"RuleName": "rasdlui.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "rasdlui.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10119",
+		"RuleName": "RegisterCimProvider2.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "RegisterCimProvider2.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10120",
+		"RuleName": "RegisterCimProvider.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "RegisterCimProvider.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10121",
+		"RuleName": "RpcPing.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "RpcPing.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10122",
+		"RuleName": "ScriptRunner.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "ScriptRunner.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10123",
+		"RuleName": "TTTracer.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "TTTracer.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10124",
+		"RuleName": "verclsid.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "verclsid.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10125",
+		"RuleName": "wab.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "wab.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10126",
+		"RuleName": "WSReset.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "WSReset.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10127",
+		"RuleName": "xwizard.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "xwizard.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10128",
+		"RuleName": "Mavinject.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*Mavinject.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10129",
+		"RuleName": "mavinject64.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*mavinject64.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10130",
+		"RuleName": "Mav injection",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*/INJECTRUNNING*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10131",
+		"RuleName": "cmstp.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "cmstp.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10132",
+		"RuleName": "MSBuild.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "MSBuild.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10133",
+		"RuleName": "Msoffice",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "excel.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10134",
+		"RuleName": "Msoffice",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "winword.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10135",
+		"RuleName": "Msoffice",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "powerpnt.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10136",
+		"RuleName": "Msoffice",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "outlook.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10137",
+		"RuleName": "Msoffice",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "msaccess.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10138",
+		"RuleName": "Msoffice",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "ParentImage",
+			"Expr": "msqub.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10139",
+		"RuleName": "regsvcs.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*regsvcs.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10140",
+		"RuleName": "regasm.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*regasm.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10141",
+		"RuleName": "SyncAppvPublishingServer.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "SyncAppvPublishingServer.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10142",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsList.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10143",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsService.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10144",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsExec.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10145",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsExec.c",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10146",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsGetSID.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10147",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsKill.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10148",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "Pkill.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10149",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*ProcDump*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10150",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsLoggedOn.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10151",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsFile.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10152",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*ShellRunas*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10153",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PipeList.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10154",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "AccessChk.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10155",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "AccessEnum.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10156",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "LogonSessions.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10157",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsLogList.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10158",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsInfo.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10159",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*LoadOrd*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10160",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "PsPasswd.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10161",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "ru.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10162",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "*Regsize*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10163",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "ProcDump",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10164",
+		"RuleName": "Sysinternals",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "#NAME?",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10165",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\PerfLogs\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10166",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\$Recycle.bin\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10167",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Intel\\Logs\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10168",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Users\\Default\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10169",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Users\\Public\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10170",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Users\\NetworkService\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10171",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Fonts\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10172",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Debug\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10173",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Media\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10174",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Help\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10175",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\addins\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10176",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\repair\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10177",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\security\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10178",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\system32\\config\\systemprofile\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10179",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "*olumeShadowCopy*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10180",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "*\\htdocs\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10181",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "*\\wwwroot\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10182",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "*\\Temp\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10183",
+		"RuleName": "Masquerading",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "*\\Appdata\\Local\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10184",
+		"RuleName": "windows control panel",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*control*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10185",
+		"RuleName": "windows control panel",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*/name*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10186",
+		"RuleName": "windows control panel",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*rundll32.exe*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10187",
+		"RuleName": "windows control panel",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*shell32.dll*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10188",
+		"RuleName": "windows control panel",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*control_RunDLL*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10189",
+		"RuleName": "windows defender tampering",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "MpCmdRun.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10190",
+		"RuleName": "windows defender tampering",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*Add-MpPreference*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10191",
+		"RuleName": "windows defender tampering",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*RemoveDefinitions*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10192",
+		"RuleName": "windows defender tampering",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "CommandLine",
+			"Expr": "*DisableIOAVProtection*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10193",
+		"RuleName": "Windows remote management",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "OriginalFileName",
+			"Expr": "wsmprovhost.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "10194",
+		"RuleName": "Windows remote management",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdOneFive",
+			"EventDataName": "Image",
+			"Expr": "winrm.cmd",
+			"Type": "String"
+		},
+		"Comment": ""
+	}
+]

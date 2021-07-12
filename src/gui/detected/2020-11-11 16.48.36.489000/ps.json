@@ -1,0 +1,202 @@
+[
+  {
+    "0": [
+      {
+        "Process Name": "UNKNOWN",
+        "Image": "C:\\Windows\\system32\\msiexec.exe",
+        "Pid": 9068,
+        "Time": "2020-11-11 16:48:36.489000",
+        "action": [
+          {
+            "Image": "C:\\Windows\\system32\\msiexec.exe",
+            "pid": 9068,
+            "Time": "2020-11-11 16:49:28.645000",
+            "Type": "File Create"
+          },
+          {
+            "Image": "C:\\Windows\\system32\\msiexec.exe",
+            "pid": 9068,
+            "Time": "2020-11-11 16:48:52.536000",
+            "Type": "RegistryEvent(Object create and delete)"
+          },
+          {
+            "Image": "C:\\Windows\\system32\\msiexec.exe",
+            "pid": 9068,
+            "Time": "2020-11-11 16:49:07.802000",
+            "Type": "RegistryEvent(Value Set)"
+          }
+        ],
+        "1": [
+          {
+            "Process Name": "msiexec.exe",
+            "Image": "C:\\Windows\\System32\\msiexec.exe",
+            "Pid": 6992,
+            "Time": "2020-11-11 16:48:53.449000",
+            "action": []
+          },
+          {
+            "Process Name": "msiexec.exe",
+            "Image": "C:\\Windows\\SysWOW64\\msiexec.exe",
+            "Pid": 11372,
+            "Time": "2020-11-11 16:49:00.891000",
+            "action": []
+          },
+          {
+            "Process Name": "msiexec.exe",
+            "Image": "C:\\Windows\\SysWOW64\\msiexec.exe",
+            "Pid": 3752,
+            "Time": "2020-11-11 16:49:05.146000",
+            "action": []
+          },
+          {
+            "Process Name": "msiexec.exe",
+            "Image": "C:\\Windows\\System32\\msiexec.exe",
+            "Pid": 11980,
+            "Time": "2020-11-11 16:49:07.017000",
+            "action": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "0": [
+      {
+        "Process Name": "UNKNOWN",
+        "Image": "UNKNOWN",
+        "Pid": 4792,
+        "Time": "2020-11-11 16:48:36.941000",
+        "action": [],
+        "1": [
+          {
+            "Process Name": "wevtutil.exe",
+            "Image": "C:\\Windows\\System32\\wevtutil.exe",
+            "Pid": 8668,
+            "Time": "2020-11-11 16:48:36.941000",
+            "action": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "0": [
+      {
+        "Process Name": "UNKNOWN",
+        "Image": "C:\\Windows\\Explorer.EXE",
+        "Pid": 4552,
+        "Time": "2020-11-11 16:48:38.286000",
+        "action": [
+          {
+            "Image": "C:\\Windows\\Explorer.EXE",
+            "pid": 4552,
+            "Time": "2020-11-11 16:49:08.598000",
+            "Type": "RegistryEvent(Object create and delete)"
+          },
+          {
+            "Image": "C:\\Windows\\Explorer.EXE",
+            "pid": 4552,
+            "Time": "2020-11-11 16:49:08.598000",
+            "Type": "RegistryEvent(Value Set)"
+          },
+          {
+            "Image": "C:\\Windows\\Explorer.EXE",
+            "pid": 4552,
+            "Time": "2020-11-11 16:49:28.223000",
+            "Type": "File Create"
+          }
+        ],
+        "1": [
+          {
+            "Process Name": "PowerShell.EXE",
+            "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "Pid": 10732,
+            "Time": "2020-11-11 16:48:40.913000",
+            "action": [
+              {
+                "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "pid": 10732,
+                "Time": "2020-11-11 16:48:41.770000",
+                "Type": "RegistryEvent(Object create and delete)"
+              },
+              {
+                "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "pid": 10732,
+                "Time": "2020-11-11 16:49:03.661000",
+                "Type": "File Create"
+              },
+              {
+                "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "pid": 10732,
+                "Time": "2020-11-11 16:49:03.051000",
+                "Type": "CreateRemoteThread"
+              }
+            ],
+            "2": [
+              {
+                "Process Name": "csc.exe",
+                "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe",
+                "Pid": 10676,
+                "Time": "2020-11-11 16:49:00.105000",
+                "action": [
+                  {
+                    "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe",
+                    "pid": 10676,
+                    "Time": "2020-11-11 16:49:00.333000",
+                    "Type": "File Create"
+                  }
+                ],
+                "3": [
+                  {
+                    "Process Name": "CVTRES.EXE",
+                    "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\cvtres.exe",
+                    "Pid": 10976,
+                    "Time": "2020-11-11 16:49:00.307000",
+                    "action": [
+                      {
+                        "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\cvtres.exe",
+                        "pid": 10976,
+                        "Time": "2020-11-11 16:49:00.317000",
+                        "Type": "File Create"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Process Name": "csc.exe",
+                "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe",
+                "Pid": 8948,
+                "Time": "2020-11-11 16:49:00.355000",
+                "action": [
+                  {
+                    "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe",
+                    "pid": 8948,
+                    "Time": "2020-11-11 16:49:00.458000",
+                    "Type": "File Create"
+                  }
+                ],
+                "3": [
+                  {
+                    "Process Name": "CVTRES.EXE",
+                    "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\cvtres.exe",
+                    "Pid": 4168,
+                    "Time": "2020-11-11 16:49:00.445000",
+                    "action": [
+                      {
+                        "Image": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\cvtres.exe",
+                        "pid": 4168,
+                        "Time": "2020-11-11 16:49:00.443000",
+                        "Type": "File Create"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

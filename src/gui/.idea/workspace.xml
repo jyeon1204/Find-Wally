@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d88f5aa1-cac0-4dc4-a631-ac710a3a4e70" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="bd00c03d-509e-4a52-8086-7db31afabcff" />
+  <component name="ProjectId" id="1kKwbrFUtv7C0gUHhGLq7hdj2xU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d88f5aa1-cac0-4dc4-a631-ac710a3a4e70" name="Default Changelist" comment="" />
+      <created>1605462664626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605462664626</updated>
+      <workItem from="1605462665819" duration="6000" />
+      <workItem from="1605462704703" duration="110000" />
+      <workItem from="1605532590600" duration="34000" />
+      <workItem from="1605545386267" duration="24000" />
+      <workItem from="1605611261836" duration="109000" />
+      <workItem from="1605612050230" duration="43000" />
+      <workItem from="1605627419728" duration="73000" />
+      <workItem from="1605632198804" duration="690000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="388" y="116" key="FileChooserDialogImpl" timestamp="1605627446332">
+      <screen x="0" y="0" width="1215" height="720" />
+    </state>
+    <state x="388" y="116" key="FileChooserDialogImpl/0.0.1215.720@0.0.1215.720" timestamp="1605627446332" />
+    <state x="109" y="5" key="SettingsEditor" timestamp="1605632449565">
+      <screen x="0" y="0" width="1215" height="720" />
+    </state>
+    <state x="109" y="5" key="SettingsEditor/0.0.1215.720@0.0.1215.720" timestamp="1605632449565" />
+  </component>
+</project>

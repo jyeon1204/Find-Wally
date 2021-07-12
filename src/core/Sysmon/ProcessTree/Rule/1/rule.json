@@ -1,0 +1,13 @@
+[
+    {
+        "RuleName" : "",
+        "Weigth" : "",
+        "Rule":{
+            "EventID":"EventIdOneFive",
+            "EvnetDataName" : "OriginalFileName",
+            "Expr":"Powershell.exe",
+            "Type":"String"
+        },
+        "Comment" : "Powershell.exe execution"
+    }
+]

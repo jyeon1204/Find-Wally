@@ -1,0 +1,1298 @@
+[
+	{
+		"RuleId": "30001",
+		"RuleName": "ipconfig.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "ipconfig.exe",
+			"Type": "String"
+		},
+		"Comment": "시스템 네트워크 구성 검색 의 정보를 사용하여 공격자가 대상을 완전히 감염"
+	},
+	{
+		"RuleId": "30002",
+		"RuleName": "nslookup.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "nslookup.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30003",
+		"RuleName": "nbtstat.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "nbtstat.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30004",
+		"RuleName": "qwinsta.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "qwinsta.exe",
+			"Type": "String"
+		},
+		"Comment": "시스템에서 실행중인 프로세스에 대한 정보를 얻으려고 시도"
+	},
+	{
+		"RuleId": "30005",
+		"RuleName": "rwinsta.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "rwinsta.exe",
+			"Type": "String"
+		},
+		"Comment": "시스템에서 실행중인 프로세스에 대한 정보를 얻으려고 시도"
+	},
+	{
+		"RuleId": "30006",
+		"RuleName": "query.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "query.exe",
+			"Type": "String"
+		},
+		"Comment": "시스템에서 실행중인 프로세스에 대한 정보를 얻으려고 시도/ C : \\ Windows \\ System32안에 있어야 함"
+	},
+	{
+		"RuleId": "30007",
+		"RuleName": "tasklist.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "tasklist.exe",
+			"Type": "String"
+		},
+		"Comment": "실행중인 프로세스에 대한 정보를 얻으려고 시도, dll파일의 svchost 서비스 목록을 볼 수 있음"
+	},
+	{
+		"RuleId": "30008",
+		"RuleName": "qprocess.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "qprocess.exe",
+			"Type": "String"
+		},
+		"Comment": "시스템에서 실행중인 프로세스에 대한 정보를 얻으려고 시도"
+	},
+	{
+		"RuleId": "30009",
+		"RuleName": "netstat.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "netstat.exe",
+			"Type": "String"
+		},
+		"Comment": "네트워크를 통해 정보를 쿼리하여 현재 액세스하고있는 손상된 시스템 또는 원격 시스템에서 네트워크 연결 목록을 얻으려고 시도"
+	},
+	{
+		"RuleId": "30010",
+		"RuleName": "nslookup.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "nslookup.exe",
+			"Type": "String"
+		},
+		"Comment": "네트워크의 ip주소, host 이름 등의 시스템 목록을 얻으려고 시도/C : \\ Windows 또는 C : \\ Windows \\ System32 폴더에있을 때 nslookup.exe로 위장"
+	},
+	{
+		"RuleId": "30011",
+		"RuleName": "net.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "net.exe",
+			"Type": "String"
+		},
+		"Comment": "네트워크의 ip주소, host 이름 등의 시스템 목록을 얻으려고 시도"
+	},
+	{
+		"RuleId": "30012",
+		"RuleName": "quser.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "quser.exe",
+			"Type": "String"
+		},
+		"Comment": "사용자가 시스템을 적극적으로 사용하고 있는지 여부를 식별하려고 시도// system으로 실행 중인지 확인하여 무해한 프로세스로 가장하기 위해"
+	},
+	{
+		"RuleId": "30013",
+		"RuleName": "nltest.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "nltest.exe",
+			"Type": "String"
+		},
+		"Comment": "시스템 소유자/사용자 정보를 사용하여 대상 감염/ 다양한 정보 수집 가능(실행중인 프로세스 소유권, 파일 / 디렉터리 소유권, 세션 정보 및 시스템 로그)"
+	},
+	{
+		"RuleId": "30014",
+		"RuleName": "runas.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "runas.exe",
+			"Type": "String"
+		},
+		"Comment": "액세스 토큰을 수정하여 작업을 수행하고 액세스 제어를 우회//실행중인 프로세스가 다른 프로세스의 자식이거나 프로세스를 시작한 사용자가 아닌 다른 사람에게 속한 것처럼 보이도록 액세스 토큰을 조작 //C : \\ Program Files \\ dvd-cloner \\ dvd-cloner64.exe에서 실행되어야 함"
+	},
+	{
+		"RuleId": "30015",
+		"RuleName": "reg.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "reg.exe",
+			"Type": "String"
+		},
+		"Comment": "사용자 프로필 폴더의 하위 폴더에 있는 경우 64% 위험, 레지스트리 키 내의 구성 정보 숨기거나, 정보를 제거 혹은 지속성과 실행을 하도록 정보 제거/로컬 또는 원격 레지스트리 수정에 사용"
+	},
+	{
+		"RuleId": "30016",
+		"RuleName": "netsh.exe",
+		"Weight": "3",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "netsh.exe",
+			"Type": "String"
+		},
+		"Comment": "설치된 보안 소프트웨어, 구성, 방어 도구 및 센서 목록을 얻으려고 시도(백신, 방화벽 규칙 포함)//PowerShell 스크립트를 악성 서비스로 사용하고 터널을 구축하기 위해 NETSH 유틸리티를 사용"
+	},
+	{
+		"RuleId": "30017",
+		"RuleName": "wevtutil.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "wevtutil.exe",
+			"Type": "String"
+		},
+		"Comment": "이벤트가보고되지 않게 함(시스템의 이벤트 로그 삭제). 호스트에서 표시 제거"
+	},
+	{
+		"RuleId": "30018",
+		"RuleName": "schtasks.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "schtasks.exe",
+			"Type": "String"
+		},
+		"Comment": "예약 된 작업을 사용하여 매분 악성 페이로드를 실행/지속성을 위함"
+	},
+	{
+		"RuleId": "30019",
+		"RuleName": "taskeng.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "taskeng.exe",
+			"Type": "String"
+		},
+		"Comment": "악성 코드의 초기 또는 반복 실행을 용이하게하기 위해 작업 예약 기능"
+	},
+	{
+		"RuleId": "30020",
+		"RuleName": "at.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "at.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30021",
+		"RuleName": "regsvr32.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "regsvr32.exe",
+			"Type": "String"
+		},
+		"Comment": "응용 프로그램 제어를 우회, Windows의 허용 목록 또는 오 탐지"
+	},
+	{
+		"RuleId": "30022",
+		"RuleName": "hh.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "hh.exe",
+			"Type": "String"
+		},
+		"Comment": "C : \\ Windows 폴더에 있지 않은 경우 malware/ HTML 도움말로 대상 PowerShell 스크립트를 열 때 악용"
+	},
+	{
+		"RuleId": "30023",
+		"RuleName": "cmd.exe",
+		"Weight": "4",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "cmd.exe",
+			"Type": "String"
+		},
+		"Comment": "명령 셸을 남용, 다양한 명령과 페이로드를 실행하는데 활용"
+	},
+	{
+		"RuleId": "30024",
+		"RuleName": "powershell.exe",
+		"Weight": "4",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "powershell.exe",
+			"Type": "String"
+		},
+		"Comment": "복잡한 명령을 실행하고 피해자의 네트워크 및 원격 코드 실행 (예 : WMI)에 대한 정보를 수집하기위한 표준 API를 사용하는 데 사용"
+	},
+	{
+		"RuleId": "30025",
+		"RuleName": "bash.exe",
+		"Weight": "4",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "bash.exe",
+			"Type": "String"
+		},
+		"Comment": "명령 실행. 명령줄 인터프리터 사용을 제한하는 보안 제한 우회 (일부 맬웨어는 특히 C : \\ Windows 또는 C : \\ Windows \\ System32 폴더에있을 때 bash.exe로 위장)"
+	},
+	{
+		"RuleId": "30026",
+		"RuleName": "pcalua.exe",
+		"Weight": "4",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "pcalua.exe",
+			"Type": "String"
+		},
+		"Comment": "명령 실행. 명령줄 인터프리터 사용을 제한하는 보안 제한 우회 (로컬 또는 원격 공유에서 악성 실행 파일 시작)"
+	},
+	{
+		"RuleId": "30027",
+		"RuleName": "cscript.exe",
+		"Weight": "7",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "cscript.exe",
+			"Type": "String"
+		},
+		"Comment": "명령 실행. 명령줄 인터프리터 사용을 제한하는 보안 제한 우회"
+	},
+	{
+		"RuleId": "30028",
+		"RuleName": "wscript.exe",
+		"Weight": "7",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "wscript.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30029",
+		"RuleName": "taskkill.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "taskkill.exe",
+			"Type": "String"
+		},
+		"Comment": "바이러스 백신 소프트웨어를 강제로 제거. 공격자는 WMI를 사용하여 위험 신호를 일으키지 않고 컴퓨터에서 실행중인 프로세스와 서비스를 쉽게 이해"
+	},
+	{
+		"RuleId": "30030",
+		"RuleName": "desktopimgdownldr.exe",
+		"Weight": "6",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "desktopimgdownldr.exe",
+			"Type": "String"
+		},
+		"Comment": "cmd를 호출하지 않고 다양한 windows 유틸리티 사용하여 명령 가능(보안 제한 우회), cmd or 파일 확장자의 사용을 제한/방지하는 탐지 제어 파괴하면서 임의 실행 수행"
+	},
+	{
+		"RuleId": "30031",
+		"RuleName": "winrs.exe",
+		"Weight": "5",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "winrs.exe",
+			"Type": "String"
+		},
+		"Comment": "cmd 를 호출하지 않고도 다양한 Windows 유틸리티를 사용하여 명령을 실행"
+	},
+	{
+		"RuleId": "30032",
+		"RuleName": "mshta.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "mshta.exe",
+			"Type": "String"
+		},
+		"Comment": "악성 .hta 파일 및 Javascript 또는 VBScript의 실행을 프록시 (url에서 직접 실행하거나 인라인 스크립트를 통해 실행 가능) // 브라우저 보안 설정과 응용 프로그램 제어 솔루션을 우회하는 데 사용 가능"
+	},
+	{
+		"RuleId": "30033",
+		"RuleName": "net1.exe",
+		"Weight": "5",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "net1.exe",
+			"Type": "String"
+		},
+		"Comment": "공격자가 그룹 및 권한 설정을 찾으려고 시도"
+	},
+	{
+		"RuleId": "30034",
+		"RuleName": "sc.exe",
+		"Weight": "7",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "sc.exe",
+			"Type": "String"
+		},
+		"Comment": "Windows 서비스를 생성하거나 수정하여 지속성의 일부로 악성 페이로드를 반복적으로 실행"
+	},
+	{
+		"RuleId": "30035",
+		"RuleName": "mmc.exe",
+		"Weight": "7",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "mmc.exe",
+			"Type": "String"
+		},
+		"Comment": "Windows 서비스를 생성하거나 수정하여 지속성의 일부로 악성 페이로드를 반복적으로 실행, 자동 실행도 가능"
+	},
+	{
+		"RuleId": "30036",
+		"RuleName": "dfsvc.exe",
+		"Weight": "1",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "dfsvc.exe",
+			"Type": "String"
+		},
+		"Comment": "악성 페이로드 실행을 프록시, 어플리케이션 제어 솔루션 우회하여 악성코드의 프록시 실행을 허용/ 정보 수집의 징후/C : \\ Windows 또는 C : \\ Windows \\ System32 폴더에있는 경우, 해당 프로세스로 위장할 확률 높음"
+	},
+	{
+		"RuleId": "30037",
+		"RuleName": "dnscmd.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "dnscmd.exe",
+			"Type": "String"
+		},
+		"Comment": "dsncmd 명령어의 경우, DNS 서버 및 개별 영역에 대 한 레지스트리 값을 변경/ Windows 서비스 제어 관리자를 악용하여 악성 명령이나 페이로드를 실행,정보 수집의 징후"
+	},
+	{
+		"RuleId": "30038",
+		"RuleName": "winexesvc.exe",
+		"Weight": "5",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "winexesvc.exe",
+			"Type": "String"
+		},
+		"Comment": "Windows 서비스 제어 관리자를 악용하여 악성 명령이나 페이로드를 실행 /  Linux 시스템에서 Windows 클라이언트의 네트워크 기반 관리를 허용"
+	},
+	{
+		"RuleId": "30039",
+		"RuleName": "psexec.exe",
+		"Weight": "7",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "psexec.exe",
+			"Type": "String"
+		},
+		"Comment": "원격 컴퓨터에서 실행하는 서비스의 실행 파일, SMB (Server Message Block) 프로토콜을 통해 시스템에 원격으로 액세스, 다른 도구 나 명령을 실행하기 위해 남용, 원격 명령을 실행하기 위한 일반적인 도구"
+	},
+	{
+		"RuleId": "30040",
+		"RuleName": "psexesvc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "psexesvc.exe",
+			"Type": "String"
+		},
+		"Comment": "psexec.exe가 실행되고 종료되었음을 나타내는 이벤트가 나타나면 생성되는 파일"
+	},
+	{
+		"RuleId": "30041",
+		"RuleName": "expand.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "expand.exe",
+			"Type": "String"
+		},
+		"Comment": "공격자의 도구 or 기타 파일을 피해자 네트워크로 전송"
+	},
+	{
+		"RuleId": "30042",
+		"RuleName": "extrac32.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "extrac32.exe",
+			"Type": "String"
+		},
+		"Comment": "공격자의 도구 or 기타 파일을 피해자 네트워크로 전송/ EX) extrac32도구를 사용하여 시스템 메모리에서 직접 추출"
+	},
+	{
+		"RuleId": "30043",
+		"RuleName": "IEExec.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "IEExec.exe",
+			"Type": "String"
+		},
+		"Comment": "공격자의 도구 or 기타 파일을 피해자 네트워크로 전송/ 특히 원격 위치에서 공격자 코드 다운로드 및 실행"
+	},
+	{
+		"RuleId": "30044",
+		"RuleName": "Print.Exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "Print.Exe",
+			"Type": "String"
+		},
+		"Comment": "공격자의 도구 or 기타 파일을 피해자 네트워크로 전송"
+	},
+	{
+		"RuleId": "30045",
+		"RuleName": "Msdt.exe",
+		"Weight": "3",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "Msdt.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)"
+	},
+	{
+		"RuleId": "30046",
+		"RuleName": "msiexec.exe",
+		"Weight": "3",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "msiexec.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명) / 자동 설치"
+	},
+	{
+		"RuleId": "30047",
+		"RuleName": "ScriptRunner.exe",
+		"Weight": "7",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "ScriptRunner.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)"
+	},
+	{
+		"RuleId": "30048",
+		"RuleName": "RegisterCimProvider.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "RegisterCimProvider.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)"
+	},
+	{
+		"RuleId": "30049",
+		"RuleName": "replace.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "replace.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명) //C : \\ Program Files \\ Macromedia \\ Extension Manager \\에 있어야 함"
+	},
+	{
+		"RuleId": "30050",
+		"RuleName": "msbuild.exe",
+		"Weight": "3",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "msbuild.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)애플리케이션 허용 목록 방어를 우회하고 코드를 XML 파일에 삽입하거나 임의 코드를 실행"
+	},
+	{
+		"RuleId": "30051",
+		"RuleName": "wscript.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "wscript.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수있는 디지털 인증서로 서명 된 바이너리를 다른 파일의 실행으로 변경)"
+	},
+	{
+		"RuleId": "30052",
+		"RuleName": "regsvr32.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "regsvr32.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)"
+	},
+	{
+		"RuleId": "30053",
+		"RuleName": "notepad.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "notepad.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)"
+	},
+	{
+		"RuleId": "30054",
+		"RuleName": "cscript.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "cscript.exe",
+			"Type": "String"
+		},
+		"Comment": "스크립트 실행 바이너리로, 저장된 Visual Basic 스크립트를 추출하고 방어적 대응책을 회피하거나 지속성 메커니즘으로 숨기는 데 사용"
+	},
+	{
+		"RuleId": "30055",
+		"RuleName": "certutil.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "certutil.exe",
+			"Type": "String"
+		},
+		"Comment": "명령 및 제어 채널을 통해 외부의 적의 제어 시스템에서 파일을 복사하여 도구를 피해자 네트워크로 가져 오는 역할. NTFS 대체 데이터 스트림에 저장, 방어 수단을 피하기 위해 인코딩 및 디코딩"
+	},
+	{
+		"RuleId": "30056",
+		"RuleName": "Mavinject.exe",
+		"Weight": "4",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "Mavinject.exe",
+			"Type": "String"
+		},
+		"Comment": "프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)"
+	},
+	{
+		"RuleId": "30057",
+		"RuleName": "SyncAppvPublishingServer.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "SyncAppvPublishingServer.exe",
+			"Type": "String"
+		},
+		"Comment": "SyncAppvPublishingServer를 Powershell 호스트로 사용하여 Powershell 코드를 실행, (프로세스 및 서명 기반 방어 우회(신뢰할 수 있는 디지털 서명)) / fileless의 경우, can be used to run powershell scripts without executing powershell.exe"
+	},
+	{
+		"RuleId": "30058",
+		"RuleName": "infDefaultInstall.exe",
+		"Weight": "6",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "infDefaultInstall.exe",
+			"Type": "String"
+		},
+		"Comment": "코드 실행, scrobj.dll을 사용하여 SCT 스크립트를 실행"
+	},
+	{
+		"RuleId": "30059",
+		"RuleName": "bitsadmin.exe",
+		"Weight": "6",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "bitsadmin.exe",
+			"Type": "String"
+		},
+		"Comment": "BITS 작업을 악용하여 악성 페이로드 후 지속적으로 실행하거나 정리"
+	},
+	{
+		"RuleId": "30060",
+		"RuleName": "RpcPing.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "RpcPing.exe",
+			"Type": "String"
+		},
+		"Comment": "OS 자격 증명 덤프 (로그인 정보같은 암호화된 자격 증명 자료를 얻기 위해 자격 증명 덤프 시도)"
+	},
+	{
+		"RuleId": "30061",
+		"RuleName": "xwizard.exe",
+		"Weight": "3",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "xwizard.exe",
+			"Type": "String"
+		},
+		"Comment": "UAC 메커니즘 우회하여 권한 상승"
+	},
+	{
+		"RuleId": "30062",
+		"RuleName": "regsvcs.exe",
+		"Weight": "7",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "regsvcs.exe",
+			"Type": "String"
+		},
+		"Comment": "우회 프로그램 제어에 사용,코드 실행을 프록시 Microsoft .NET Framework가 시스템에 설치되어있는 경우, 악성 페이로드가 삽입될 대상"
+	},
+	{
+		"RuleId": "30063",
+		"RuleName": "javaw.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "javaw.exe",
+			"Type": "String"
+		},
+		"Comment": "javaw.exe와 같은 (메모리에 동작 중인)실행중인 프로세스에 주입되어 악용"
+	},
+	{
+		"RuleId": "30064",
+		"RuleName": "javaws.exe",
+		"Weight": "8",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "javaws.exe",
+			"Type": "String"
+		},
+		"Comment": "Java 응용 프로그램에 인터넷 기능을 제공하는 데 사용되는 응용 프로그램입니다. JNLP 파일을 사용하여 원격 서버에서 호스팅되는 응용 프로그램을 로컬에서 시작"
+	},
+	{
+		"RuleId": "30065",
+		"RuleName": "wmic.exe",
+		"Weight": "4",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "wmic.exe",
+			"Type": "String"
+		},
+		"Comment": "WMI를 사용하여 로컬 및 원격 시스템과 상호 작용, 정보 수집"
+	},
+	{
+		"RuleId": "30066",
+		"RuleName": "rundll32.exe",
+		"Weight": "5",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "rundll32.exe",
+			"Type": "String"
+		},
+		"Comment": "DLL 페이로드 실행, 정상 프로세스로 오탐, JavaScript와 같은 스크립트 실행"
+	},
+	{
+		"RuleId": "30067",
+		"RuleName": "net.exe",
+		"Weight": "5",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "net.exe",
+			"Type": "String"
+		},
+		"Comment": "공격자가 그룹 및 권한 설정을 찾으려고 시도/ net 명령어를 통해 네트워크 정보 획득/wmic /node:[IP address] /user:”[user name]” /password:”[password]” process call create “cmd /c c:\\Windows\\System32\\net.exe user” >wmic 명령어를 통해 원격호스트에 임의의 명령을 실행"
+	},
+	{
+		"RuleId": "30070",
+		"RuleName": "java.exe",
+		"Weight": "2",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "java.exe",
+			"Type": "String"
+		},
+		"Comment": "C:\\windows가 아닌 프로그램 파일에 있어야 함."
+	},
+	{
+		"RuleId": "30071",
+		"RuleName": "tor.exe",
+		"Weight": "3",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "\\tor.exe",
+			"Type": "String"
+		},
+		"Comment": "악성코드가 tor.exe(정상 프로세스)인 것처럼 행동하는 경우 존재. (ex) tor.exe파일이 다른 파일(taskhosts.exe)로 변조되어 실행되고, 시스템간의 통신을 위해 tor 서버와 네트워크 접속을 시도하는 경우)"
+	},
+	{
+		"RuleId": "30072",
+		"RuleName": "vnc.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "vnc.exe",
+			"Type": "String"
+		},
+		"Comment": "원격 연결을 허용"
+	},
+	{
+		"RuleId": "30073",
+		"RuleName": "vncviewer.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "vncviewer.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30074",
+		"RuleName": "vncservice.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "vncservice.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30075",
+		"RuleName": "omniinet.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "omniinet.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30076",
+		"RuleName": "hpsmhd.exe",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "hpsmhd.exe",
+			"Type": "String"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30077",
+		"RuleName": "22",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "22",
+			"Type": "String"
+		},
+		"Comment": "SSH"
+	},
+	{
+		"RuleId": "30078",
+		"RuleName": "23",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "23",
+			"Type": "String"
+		},
+		"Comment": "Telnet"
+	},
+	{
+		"RuleId": "30079",
+		"RuleName": "3389",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "3389",
+			"Type": "String"
+		},
+		"Comment": "RDP"
+	},
+	{
+		"RuleId": "30080",
+		"RuleName": "5800",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "5800",
+			"Type": "String"
+		},
+		"Comment": "VNC"
+	},
+	{
+		"RuleId": "30081",
+		"RuleName": "5900",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "5900",
+			"Type": "String"
+		},
+		"Comment": "VNC"
+	},
+	{
+		"RuleId": "30082",
+		"RuleName": "C:\\Users",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\system32*",
+			"Type": "Regex"
+		},
+		"Comment": "합법적이거나 무해한 것처럼 보이기 위해 이름이나 위치를 조작할 때 사용하는 경로"
+	},
+	{
+		"RuleId": "30083",
+		"RuleName": "C:\\ProgramData",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\ProgramData*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30084",
+		"RuleName": "C:\\Windows\\Temp",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Temp*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30085",
+		"RuleName": "C:\\Temp",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Temp*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30086",
+		"RuleName": "C:\\PerfLogs\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\PerfLogs\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30087",
+		"RuleName": "C:\\$Recycle.bin\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\$Recycle.bin\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30088",
+		"RuleName": "C:\\Intel\\Logs\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Intel\\Logs\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30089",
+		"RuleName": "C:\\Users\\Default\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Users\\Default\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30090",
+		"RuleName": "C:\\Users\\Public\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Users\\Public\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30091",
+		"RuleName": "C:\\Users\\NetworkService\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Users\\NetworkService\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30092",
+		"RuleName": "C:\\Windows\\Fonts\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Fonts\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30093",
+		"RuleName": "C:\\Windows\\Debug\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Debug\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30094",
+		"RuleName": "C:\\Windows\\Media\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Media\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30095",
+		"RuleName": "C:\\Windows\\Help\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\Help\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30096",
+		"RuleName": "C:\\Windows\\addins\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\addins\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30097",
+		"RuleName": "C:\\Windows\\repair\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\repair\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30098",
+		"RuleName": "C:\\Windows\\security\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\security\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30099",
+		"RuleName": "C:\\Windows\\system32\\config\\systemprofile\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "C:\\Windows\\system32\\config\\systemprofile\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30100",
+		"RuleName": "\\htdocs\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "*\\htdocs\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30101",
+		"RuleName": "\\wwwroot\\",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "Image",
+			"Expr": "*\\wwwroot\\*",
+			"Type": "Regex"
+		},
+		"Comment": ""
+	},
+	{
+		"RuleId": "30102",
+		"RuleName": "5986",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "5986",
+			"Type": "String"
+		},
+		"Comment": "원격 시스템과 상호 작용, windows 원격 관리 명령을 사용하거나 powershell과 같은 여러 프로그램으로 호출 가능 "
+	},
+	{
+		"RuleId": "30103",
+		"RuleName": "25",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "25",
+			"Type": "String"
+		},
+		"Comment": "SMTP 이메일 전송"
+	},
+	{
+		"RuleId": "30104",
+		"RuleName": "1080",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "1080",
+			"Type": "String"
+		},
+		"Comment": "registered port(Socks Proxy로 트로이목마,백도어 등 위협 존재/TCP)"
+	},
+	{
+		"RuleId": "30105",
+		"RuleName": "3128",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "3128",
+			"Type": "String"
+		},
+		"Comment": "registered port(정상도 있지만 백도어,트로이 목마 등 다양한 위협 존재/TCP)"
+	},
+	{
+		"RuleId": "30106",
+		"RuleName": "8080",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "8080",
+			"Type": "String"
+		},
+		"Comment": "registered port(정상도 있지만 백도어,트로이 목마 등 다양한 위협 존재/TCP,UDP)"
+	},
+	{
+		"RuleId": "30107",
+		"RuleName": "1723",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "1723",
+			"Type": "String"
+		},
+		"Comment": "registered port(PPAP VPN 크래킹 무차별 대입, 중간자 공격 등 여러 취약점 존재/TCP,UDP)"
+	},
+	{
+		"RuleId": "30108",
+		"RuleName": "4500",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "4500",
+			"Type": "String"
+		},
+		"Comment": "registered port(NAT-T 로컬 보안 기관/UDP)"
+	},
+	{
+		"RuleId": "30109",
+		"RuleName": "9030",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "9030",
+			"Type": "String"
+		},
+		"Comment": "registered port(대량 메일 발송 웜, 손상된 시스템에서 백도어를 열고 원격 명령 수신/TCP)"
+	},
+	{
+		"RuleId": "30110",
+		"RuleName": "9001",
+		"Weight": "",
+		"Rule": {
+			"EventID": "EventIdThree",
+			"EventDataName": "DestinationPort",
+			"Expr": "9001",
+			"Type": "String"
+		},
+		"Comment": "registered port(원격 공격자가 서비스 출동을 유발/TCP,UDP)"
+	}
+]

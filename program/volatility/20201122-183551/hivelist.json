@@ -1,0 +1,54 @@
+{
+	"1": {
+		"virtual": "0xfffff8a001c62010",
+		"name": "\\\\??\\\\C:\\\\Users\\\\powerghost\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\UsrClass.dat"
+	},
+	"2": {
+		"virtual": "0xfffff8a002191010",
+		"name": "\\\\??\\\\C:\\\\Syste"
+	},
+	"3": {
+		"virtual": "0xfffff8a005f24010",
+		"name": "\\\\SystemRoot\\\\System32\\\\Config\\\\DEFAULT"
+	},
+	"4": {
+		"virtual": "0xfffff8a00000e010",
+		"name": "[n"
+	},
+	"5": {
+		"virtual": "0xfffff8a000024010",
+		"name": "\\\\REGISTRY\\\\MACHINE\\\\SYSTEM"
+	},
+	"6": {
+		"virtual": "0xfffff8a000053010",
+		"name": "\\\\REGISTRY\\\\MACHINE\\\\HARDWARE"
+	},
+	"7": {
+		"virtual": "0xfffff8a0000f3010",
+		"name": "\\\\SystemRoot\\\\System32\\\\Config\\\\SOFTWARE"
+	},
+	"8": {
+		"virtual": "0xfffff8a00145b1d0",
+		"name": "\\\\Device\\\\HarddiskVolume1\\\\Boot\\\\BCD"
+	},
+	"9": {
+		"virtual": "0xfffff8a001730010",
+		"name": "\\\\SystemRoot\\\\System32\\\\Config\\\\SECURITY"
+	},
+	"10": {
+		"virtual": "0xfffff8a001794010",
+		"name": "\\\\SystemRoot\\\\System32\\\\Config\\\\SAM"
+	},
+	"11": {
+		"virtual": "0xfffff8a001969010",
+		"name": "\\\\??\\\\C:\\\\Windows\\\\ServiceProfiles\\\\NetworkService\\\\NTUSER.DAT"
+	},
+	"12": {
+		"virtual": "0xfffff8a0019fe010",
+		"name": "\\\\??\\\\C:\\\\Windows\\\\ServiceProfiles\\\\LocalService\\\\NTUSER.DAT"
+	},
+	"13": {
+		"virtual": "0xfffff8a001c20010",
+		"name": "\\\\??\\\\C:\\\\Users\\\\powerghost\\\\ntuser.dat"
+	}
+}
